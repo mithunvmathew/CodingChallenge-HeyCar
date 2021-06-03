@@ -44,7 +44,7 @@ A lot of search operations make database slow.especially at the time of uploadin
 We can think about NoSQL database and improve search by caching with Hazlecast etc..
 
 ##### Like to implement
-Improve the data verification of the uploaded data.
-Implement some caching implementation to improve search 
-Adding some metrics and monitor the performance of the Apis and DB.
+Improve the data verification of the uploaded data.  
+Implement some caching implementation to improve search.  
+Adding some metrics and monitor the performance of the Apis and DB.  
 Adding more unit test and integration test to improve the code quality.

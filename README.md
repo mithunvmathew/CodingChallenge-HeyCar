@@ -1,11 +1,11 @@
 ##### Hey car coding-challenge
 
-#####Requirements
+##### Requirements
 JDK 8  
 Maven  
 Docker
 
-#####Starting App
+##### Starting App
 From the project root location, run the below commands  
 mvn clean package  
 docker-compose up
@@ -18,7 +18,7 @@ http://localhost:18001/swagger-ui.html
 mvn clean integration-test  
 Tests include the dealer upload(CSV & JSON) and Search Operation.
 
-#####Implementation and challenges  
+##### Implementation and challenges  
 Architecture: Upload operation and search operations separated.There is a lot of chances that dealers have differant csv schemas.
 For ex: 'make' change with 'brand'  etc.. So this architecture has the capability of adding new csvs with minimum 
 implementation.Implement generic CsvFileToObjectMapper inetrface provide a possibilities of extension.
@@ -43,7 +43,7 @@ So our app must intelligent enough to verify the data before persisting.
 A lot of search operations make database slow.especially at the time of uploading. 
 We can think about NoSQL database and improve search by caching with Hazlecast etc..
 
-#####Like to implement
+##### Like to implement
 Improve the data verification of the uploaded data.
 Implement some caching implementation to improve search 
 Adding some metrics and monitor the performance of the Apis and DB.

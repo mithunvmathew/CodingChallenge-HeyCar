@@ -1,0 +1,19 @@
+server:
+  port: 8001
+
+spring:
+  profile: it
+  datasource:
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
+    jpa:
+      database-platform: org.hibernate.dialect.H2Dialect
+      properties:
+        hibernate:
+          ddl-auto: create
+          jdbc:
+            lob:
+              non_contextual_creation: true
+      show-sql: false

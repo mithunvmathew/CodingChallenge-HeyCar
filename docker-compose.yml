@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  heycar-server:
+    container_name: heycar-server
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: heycar-server:latest
+    ports:
+      - 18001:8001

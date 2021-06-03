@@ -1,0 +1,25 @@
+[
+  {
+
+    "code": "1",
+    "make": "benz",
+    "model": "e3",
+    "power": "220",
+    "year": 2019,
+    "color": "blue",
+    "price": 30000.0,
+    "createdAt": "2021-06-02T09:24:11.549+00:00",
+    "modifiedAt": "2021-06-02T09:24:19.307+00:00"
+  },
+  {
+    "code": "2",
+    "make": "Skoda",
+    "model": "fabia",
+    "power": "78",
+    "year": 2018,
+    "color": "grey",
+    "price": 7000.0,
+    "createdAt": "2021-06-02T09:24:11.560+00:00",
+    "modifiedAt": "2021-06-02T09:24:19.309+00:00"
+  }
+]

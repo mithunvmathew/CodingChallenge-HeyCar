@@ -1,4 +1,4 @@
-##### Hey car coding-challenge
+# Getting Started
 
 ##### Requirements
 JDK 8  
